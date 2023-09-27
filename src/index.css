@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-item {
+  cursor: pointer;
+}
+.active:hover {
+  border-bottom: 2px solid white;
+  color: rgb(229, 5, 5) !important;
+}
+span {
+  letter-spacing: 2px;
+  font-variant: small-caps;
+  font-family: sans-serif;
+}
+.navbar {
+  box-shadow: 3px 3px 2px 2px rgb(83, 79, 79);
+}
